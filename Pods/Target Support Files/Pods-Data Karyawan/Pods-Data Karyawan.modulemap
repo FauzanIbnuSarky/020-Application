@@ -1,0 +1,6 @@
+framework module Pods_Data_Karyawan {
+  umbrella header "Pods-Data Karyawan-umbrella.h"
+
+  export *
+  module * { export * }
+}

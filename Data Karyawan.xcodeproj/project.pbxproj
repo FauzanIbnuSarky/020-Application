@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0154F05EA11074C607EF89FC /* Pods_Data_Karyawan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCD1A11C4F39C0C81D8411 /* Pods_Data_Karyawan.framework */; };
 		582F8E981FBE6EF100B8C252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F8E971FBE6EF100B8C252 /* AppDelegate.swift */; };
 		582F8E9A1FBE6EF100B8C252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F8E991FBE6EF100B8C252 /* ViewController.swift */; };
 		582F8E9D1FBE6EF100B8C252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582F8E9B1FBE6EF100B8C252 /* Main.storyboard */; };
 		582F8E9F1FBE6EF100B8C252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582F8E9E1FBE6EF100B8C252 /* Assets.xcassets */; };
 		582F8EA21FBE6EF100B8C252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582F8EA01FBE6EF100B8C252 /* LaunchScreen.storyboard */; };
+		58D9C0341FBE939600298063 /* karyawanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D9C0331FBE939600298063 /* karyawanTableViewController.swift */; };
+		58D9C0361FBE93B600298063 /* KaryawanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D9C0351FBE93B600298063 /* KaryawanTableViewCell.swift */; };
+		58D9C0381FBE93C900298063 /* Karyawan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D9C0371FBE93C900298063 /* Karyawan.swift */; };
+		58D9C03A1FBEC0E800298063 /* DetailDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D9C0391FBEC0E800298063 /* DetailDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		582F8E9E1FBE6EF100B8C252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		582F8EA11FBE6EF100B8C252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		582F8EA31FBE6EF100B8C252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D9C0331FBE939600298063 /* karyawanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = karyawanTableViewController.swift; sourceTree = "<group>"; };
+		58D9C0351FBE93B600298063 /* KaryawanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaryawanTableViewCell.swift; sourceTree = "<group>"; };
+		58D9C0371FBE93C900298063 /* Karyawan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karyawan.swift; sourceTree = "<group>"; };
+		58D9C0391FBEC0E800298063 /* DetailDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDataViewController.swift; sourceTree = "<group>"; };
+		BAE72C5AD3F8A65974506D24 /* Pods-Data Karyawan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data Karyawan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Data Karyawan/Pods-Data Karyawan.debug.xcconfig"; sourceTree = "<group>"; };
+		D88F0C4C6B57D753134982D0 /* Pods-Data Karyawan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data Karyawan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Data Karyawan/Pods-Data Karyawan.release.xcconfig"; sourceTree = "<group>"; };
+		D8BCD1A11C4F39C0C81D8411 /* Pods_Data_Karyawan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data_Karyawan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0154F05EA11074C607EF89FC /* Pods_Data_Karyawan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				582F8E961FBE6EF100B8C252 /* Data Karyawan */,
 				582F8E951FBE6EF100B8C252 /* Products */,
+				69F60E937786DB7710F92ABE /* Pods */,
+				63ACF4222FD24F87DACF6953 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +75,29 @@
 				582F8E9E1FBE6EF100B8C252 /* Assets.xcassets */,
 				582F8EA01FBE6EF100B8C252 /* LaunchScreen.storyboard */,
 				582F8EA31FBE6EF100B8C252 /* Info.plist */,
+				58D9C0331FBE939600298063 /* karyawanTableViewController.swift */,
+				58D9C0351FBE93B600298063 /* KaryawanTableViewCell.swift */,
+				58D9C0371FBE93C900298063 /* Karyawan.swift */,
+				58D9C0391FBEC0E800298063 /* DetailDataViewController.swift */,
 			);
 			path = "Data Karyawan";
+			sourceTree = "<group>";
+		};
+		63ACF4222FD24F87DACF6953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8BCD1A11C4F39C0C81D8411 /* Pods_Data_Karyawan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F60E937786DB7710F92ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE72C5AD3F8A65974506D24 /* Pods-Data Karyawan.debug.xcconfig */,
+				D88F0C4C6B57D753134982D0 /* Pods-Data Karyawan.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 582F8EA61FBE6EF100B8C252 /* Build configuration list for PBXNativeTarget "Data Karyawan" */;
 			buildPhases = (
+				609F38B0FF67956B891E3367 /* [CP] Check Pods Manifest.lock */,
 				582F8E901FBE6EF100B8C252 /* Sources */,
 				582F8E911FBE6EF100B8C252 /* Frameworks */,
 				582F8E921FBE6EF100B8C252 /* Resources */,
+				E72217127876ACA2453BBB73 /* [CP] Embed Pods Frameworks */,
+				F622DC5F34DB46B7D2815747 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +170,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		609F38B0FF67956B891E3367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Data Karyawan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72217127876ACA2453BBB73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Data Karyawan/Pods-Data Karyawan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Data Karyawan/Pods-Data Karyawan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F622DC5F34DB46B7D2815747 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Data Karyawan/Pods-Data Karyawan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		582F8E901FBE6EF100B8C252 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D9C0341FBE939600298063 /* karyawanTableViewController.swift in Sources */,
+				58D9C03A1FBEC0E800298063 /* DetailDataViewController.swift in Sources */,
 				582F8E9A1FBE6EF100B8C252 /* ViewController.swift in Sources */,
+				58D9C0381FBE93C900298063 /* Karyawan.swift in Sources */,
 				582F8E981FBE6EF100B8C252 /* AppDelegate.swift in Sources */,
+				58D9C0361FBE93B600298063 /* KaryawanTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +371,7 @@
 		};
 		582F8EA71FBE6EF100B8C252 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE72C5AD3F8A65974506D24 /* Pods-Data Karyawan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +386,7 @@
 		};
 		582F8EA81FBE6EF100B8C252 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88F0C4C6B57D753134982D0 /* Pods-Data Karyawan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
